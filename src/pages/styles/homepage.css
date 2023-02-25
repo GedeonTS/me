@@ -1,0 +1,23 @@
+.homepage-container {
+    width: 70%;
+    height: 75%;
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.486);
+    display: grid;
+    align-items: center;
+    padding-left: 4%;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--bg2);
+ }
+
+ .profile-image-section {
+    /* width: 100%; */
+    display:flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .profile-image {
+    width: 50%;
+  }
+ 
