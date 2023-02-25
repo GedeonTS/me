@@ -1,0 +1,44 @@
+.about-container {
+    width: 70%;
+    height: 75%;
+    border-radius: 1rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.486);
+    display: grid;
+    align-items: center;
+    padding-left: 4%;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--bg2);
+
+}
+
+.presentation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 87.2%;
+    color: #2b3952;
+
+}
+
+.presentation h1 {
+  font-family: montserrat,"sans-serif";
+  color: rgb(100, 33, 161);
+}
+
+.expertise-list {
+list-style: none;
+margin-left: 0;
+font-family: Poppins;
+}
+
+.expertise-list li {
+height: 3rem;
+border-bottom: solid 1px;
+display: flex;
+align-items: center;
+width: 75%;
+}
+
+.resume-button {
+
+}
