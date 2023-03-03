@@ -16,7 +16,78 @@
     height: 50px;
     border-radius: 5px;
     background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid blue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: socialDisplay1 2s 1;
 
-    margin-top: 15px;
-    
+}
+
+.social-icon:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+
+}
+
+@media (max-width:768px) {
+    .contact-bar {
+        background-color: transparent;
+    }
+}
+
+/* .motion1 {
+}
+
+.motion2 {
+    animation: socialDisplay1 3s 1;
+}
+
+.motion3 {
+    animation: socialDisplay1 3s 1;
+}
+
+.motion4 {
+    animation: socialDisplay1 3s 1;
+}
+
+.motion5 {
+    animation: socialDisplay1 3s 1;
+}
+
+.motion6 {
+    animation: socialDisplay1 3s 1;
+}
+
+.motion7 {
+    animation: socialDisplay1 3s 1;
+}
+
+.motion8 {
+    animation: socialDisplay1 3s 1;
+}
+
+.motion9 {
+    animation: socialDisplay1 3s 1;
+} */
+
+@keyframes socialDisplay1 {
+    0% {opacity: 0;
+        margin-bottom: 20px;
+        border: 1px solid #fff;
+        margin-right: 450%;
+    }
+    30% {
+        opacity: 0.8;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        margin-bottom: 0;
+        border: 1px solid #fff;
+        margin-right: 0;
+    }
 }
