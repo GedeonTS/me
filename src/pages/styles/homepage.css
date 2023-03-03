@@ -5,7 +5,7 @@
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.486);
     display: grid;
     align-items: center;
-    padding-left: 4%;
+    /* padding-left: 4%; */
     grid-template-columns: 1fr 1fr;
     background-color: var(--bg2);
  }
@@ -19,5 +19,19 @@
 
   .profile-image {
     width: 50%;
+  }
+
+  @media (max-width:768px) {
+    .homepage-container {
+      width: 100%;
+      height: 100vh;
+      border-radius: 0;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
   }
  
