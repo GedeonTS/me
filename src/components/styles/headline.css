@@ -7,7 +7,6 @@
   justify-content: center;
   font-size: 20px;
   font-family: montserrat,"sans-serif";
-
 }
 
 .headline {
@@ -30,4 +29,22 @@
 
 .my-text {
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:768px) {
+    .name {
+        font-size: 1.5rem;
+        color: rgb(100, 33, 161);
+    }
+
+    .name-wrapper {
+        color:blueviolet;
+        font-size: 1.5rem;
+    }
+
+    .headline-container {
+        font-size: 14px;
+        width: 60%;
+        text-align: center;
+    }
 }
