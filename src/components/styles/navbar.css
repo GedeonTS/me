@@ -63,3 +63,9 @@
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
 }
+
+@media (max-width:768px) {
+  .navbar-container {
+    display: none;
+  } 
+}
