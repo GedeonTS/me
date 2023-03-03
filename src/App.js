@@ -6,7 +6,6 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import ContactBar from "./components/ContactBar"
-import Particles from 'react-particles-js';
 
 
 //switch is used to render only one route at a time
@@ -22,19 +21,19 @@ import Particles from 'react-particles-js';
 
 const App = () => {
     return (
-        // <div style={{position:"relative",width:"100%",height:"100%"}}>
-        //     <Navbar />
-        //     <div className="tile">
-        //     <Routes>
-        //         <Route path="/" element={<HomePage />} />
-        //         <Route path="/about" element={<About />} />
-        //         <Route path="/contact" element={<Contact />} />
-        //         <Route path="/projects" element={<Projects />} />
-        //     </Routes>
-        //     </div>
-        //     <ContactBar/>
-        // </div>
-        <Particles />
+        <div style={{position:"relative",width:"100%",height:"100%"}}>
+            <Navbar />
+            <div className="tile">
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/projects" element={<Projects />} />
+            </Routes>
+            </div>
+            <ContactBar/>
+        </div>
+        
     );
 }
 
